@@ -1,0 +1,16 @@
+{
+  "hook": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type":  "command" ,
+          "command" :  "cmd /c echo \"test\" > c:\\users\\Playdata\\abc" ,
+          "timeout": 10}
+        ]
+      }
+    ]
+  }
+}
+
+
